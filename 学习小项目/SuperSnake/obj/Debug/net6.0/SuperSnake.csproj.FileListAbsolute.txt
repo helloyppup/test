@@ -1,0 +1,15 @@
+F:\C#\SuperSnake\bin\Debug\net6.0\SuperSnake.exe
+F:\C#\SuperSnake\bin\Debug\net6.0\SuperSnake.deps.json
+F:\C#\SuperSnake\bin\Debug\net6.0\SuperSnake.runtimeconfig.json
+F:\C#\SuperSnake\bin\Debug\net6.0\SuperSnake.dll
+F:\C#\SuperSnake\bin\Debug\net6.0\SuperSnake.pdb
+F:\C#\SuperSnake\obj\Debug\net6.0\SuperSnake.csproj.AssemblyReference.cache
+F:\C#\SuperSnake\obj\Debug\net6.0\SuperSnake.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\SuperSnake\obj\Debug\net6.0\SuperSnake.AssemblyInfoInputs.cache
+F:\C#\SuperSnake\obj\Debug\net6.0\SuperSnake.AssemblyInfo.cs
+F:\C#\SuperSnake\obj\Debug\net6.0\SuperSnake.csproj.CoreCompileInputs.cache
+F:\C#\SuperSnake\obj\Debug\net6.0\SuperSnake.dll
+F:\C#\SuperSnake\obj\Debug\net6.0\refint\SuperSnake.dll
+F:\C#\SuperSnake\obj\Debug\net6.0\SuperSnake.pdb
+F:\C#\SuperSnake\obj\Debug\net6.0\SuperSnake.genruntimeconfig.cache
+F:\C#\SuperSnake\obj\Debug\net6.0\ref\SuperSnake.dll
