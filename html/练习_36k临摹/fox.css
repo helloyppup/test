@@ -1,0 +1,51 @@
+h1 {
+    color: #3a3a3a;
+}
+
+h2{
+    color: #3a3a3a;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+a {
+    color: #7e7e7e;
+    font: italic 18px 'Microsoft yahei';
+    text-decoration: none;
+}
+
+p {
+    color: #7e7e7e;
+    font: 18px 'Microsoft yahei';
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+blockquote {
+    color: #7e7e7e;
+    font: italic 200 18px 'Microsoft yahei';
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+ul {
+    color: #7e7e7e;
+    font: 18px 'Microsoft yahei';
+    letter-spacing: 0.1em;
+    line-height: 1.8em;
+}
+
+cite {
+    color: #7e7e7e;
+}
+
+form {
+    background-color: rgb(240, 240, 240);
+    border: 15px solid rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+.button {
+    color: white;
+    background-color: #3a3a3a;
+    font: italic 200  'Microsoft yahei'
+}
+
