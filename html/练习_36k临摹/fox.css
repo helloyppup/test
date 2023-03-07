@@ -37,8 +37,7 @@ cite {
     color: #7e7e7e;
 }
 
-form {
-    background-color: rgb(240, 240, 240);
+form {background-color: rgb(240, 240, 240);
     border: 15px solid rgb(240, 240, 240);
     border-radius: 5px;
 }
