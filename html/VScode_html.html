@@ -7,26 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
-            width: 900px;
-            height: 300px;
-            background-color: pink;
-            margin: 0 auto;
-            text-align: center;
+        * {
+            padding: 0;
+            margin: 0;
         }
 
-        img {
-            width: 50px;
+        .clearfix::before,
+        .clearfix::after {
+            content: "";
+            display: table;
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+
+        .clearfix {
+            /* 这个语句用于兼容IR6、7    */
+            *zoom: 1;
+        }
+
+        .box {
+            background-color: antiquewhite;
+        }
+
+        .box li {
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            list-style: none;
+            background-color: deeppink;
         }
     </style>
 
 </head>
 
 <body>
-    <div>
-        <span>行内元素</span>
-        <img src="img/12+.webp" />
+    <div class="box clearfix">
+        <ul class="littleBox">
+            <li class="box1"></li>
+            <li class="box2"></li>
+            <li class="box3"></li>
+            <li class="box4"></li>
+        </ul>
+
     </div>
+
 </body>
 
 </html>
