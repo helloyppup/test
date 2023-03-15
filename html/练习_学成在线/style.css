@@ -3,13 +3,15 @@
     margin: 0;
 }
 
-.w {
-    margin: auto;
-    width: 1350px;
+/* 版心样式 */
+.center {
+    width: 800px;
+    margin: 0px auto;
 }
 
 a {
     text-decoration: none;
+    color: #808080;
 }
 
 li {
@@ -17,88 +19,167 @@ li {
 }
 
 .header {
-    height: 56px;
-    /* background-color: antiquewhite; */
-    margin-top: 57px;
-    padding: 30px 0;
+    height: 40px;
+    background-color: antiquewhite;
 }
 
-.logo {
+.header .logo {
     float: left;
-    width: 151px;
-    /* background-color: deepskyblue; */
+    width: 100px;
+    height: 40px;
+    background-color: cadetblue;
 }
 
-.logo img {
-    width: 100%;
-}
-
-.nav {
+.header ul {
     float: left;
-    /* background-color: chartreuse; */
-    margin-left: 170px;
+    margin-left: 50px;
 }
 
-.nav li {
+.header ul li {
     float: left;
-    padding: 0 19px;
+    margin-right: 50px;
+    list-style: none;
+    font-weight: 500;
+    line-height: 40px;
 }
 
-.nav a {
-    display: block;
-    height: 56px;
-    padding: 19 0;
-    color: #666;
-    line-height: 56px;
-    font-size: 22px;
+.header ul li:hover {
+    border-bottom: 2px solid #2ca135;
 }
 
-.nav a:hover {
-    color: rgb(140, 110, 88);
-}
-
-.search {
+.header .serch {
     float: left;
-    height: 35px;
-    width: 376px;
-    padding: 10px;
-    padding-bottom: 0;
-    /* background-color: beige; */
-    border-bottom: 2px solid #dedcdc;
-    margin-left: 343px;
+    height: 20px;
+    width: 230px;
+    margin: 10px 40px;
+    margin-right: 0;
+    /* background-color: aquamarine; */
 }
 
-.search .icon1 {
+.header .serch input {
     float: left;
-    height: 33px;
-    width: 27px;
-    background: url(imges/Search.png) no-repeat left;
-    /* background-color: aqua; */
+    /* border: none; */
+}
+
+.header .serch .text {
+    width: 140px;
+    border: 2px solid cadetblue;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.header .serch .button {
+    width: 46px;
+    background-color: cadetblue;
+    border: 2px solid rgb(62, 104, 106);
+    border-radius: 0 10px 10px 0;
+}
+
+.header .photo {
+    float: right;
+    height: 20px;
+    margin: 10px 0;
     margin-right: 20px;
+    /* background-color: #2ca135; */
 }
 
-.search .icon1:hover {
-    background-image: url(imges/Search-hover.png);
-}
-
-.search .icon2 {
-    float: right;
-    height: 31px;
-    width: 29px;
-    background: url(imges/car.png) no-repeat left;
-    /* background-color: aqua; */
-    /* margin-right: 20px; */
-}
-
-.search .icon2:hover {
-    background-image: url(imges/car-hover.png);
-}
-
-.search input {
-    float: right;
+.header .photo .head {
+    float: left;
     height: 100%;
-    width: 280px;
-    border: none;
-    border-radius: 20px;
-    margin-right: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: coral;
+}
+
+.header .photo .name {
+    float: left;
+    color: #808080;
+    line-height: 20px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.bk {
+    /* width: 100px; */
+    height: 300px;
+    background-color: rgb(170, 210, 238);
+    margin-top: 10px;
+}
+
+.bk .focus {
+    position: relative;
+    height: 100%;
+    background: url(imges/like.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+.bk .focus .point div {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(1, 1, 1, .3);
+    line-height: 30px;
+}
+
+.bk .focus .prev {
+    border-radius: 0 15px 15px 0;
+}
+
+
+.bk .focus .nect {
+    right: 0;
+    border-radius: 15px 0 0 15px;
+}
+
+.bk .focus a {
+    color: white;
+}
+
+.bk .focus a:hover {
+    color: #2ca135;
+}
+
+.bk .focus .prev a {
+    float: left;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.bk .focus .nect a {
+    float: right;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.bk .focus .promo-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -70px;
+    width: 140px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    /* background-color: #2ca135; */
+    border-radius: 15px;
+}
+
+.bk .focus .promo-nav ul {
+    float: left;
+    margin: 0 19px;
+}
+
+.bk .focus .promo-nav ul li {
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.bk .focus .promo-nav ul li:hover {
+    color: #2ca135;
 }
