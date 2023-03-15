@@ -12,48 +12,24 @@
             margin: 0;
         }
 
-        .clearfix::before,
-        .clearfix::after {
-            content: "";
-            display: table;
-        }
-
-        .clearfix:after {
-            clear: both;
-        }
-
-        .clearfix {
-            /* 这个语句用于兼容IR6、7    */
-            *zoom: 1;
-        }
-
         .box {
-            background-color: antiquewhite;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: brown;
         }
 
-        .box li {
-            float: left;
-            width: 300px;
-            height: 300px;
-            margin: 10px;
-            list-style: none;
-            background-color: deeppink;
+        span {
+            background-color: cadetblue;
         }
     </style>
-
 </head>
 
 <body>
-    <div class="box clearfix">
-        <ul class="littleBox">
-            <li class="box1"></li>
-            <li class="box2"></li>
-            <li class="box3"></li>
-            <li class="box4"></li>
-        </ul>
+    <div class="box">
 
     </div>
-
+    <span>滚滚长江东逝水</span>
 </body>
 
 </html>
