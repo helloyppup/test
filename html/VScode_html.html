@@ -13,23 +13,32 @@
         }
 
         .box {
-            position: absolute;
+            position: relative;
             width: 100px;
             height: 100px;
             background-color: brown;
+            margin: 30px auto;
         }
 
-        span {
-            background-color: cadetblue;
+        .box span {
+            position: absolute;
+            top: -16px;
+            right: 15px;
+            width: 0;
+            height: 0;
+            font-size: 0;
+            line-height: 0;
+
+            border: 8px solid transparent;
+            border-bottom-color: goldenrod;
         }
     </style>
 </head>
 
 <body>
     <div class="box">
-
+        <span></span>
     </div>
-    <span>滚滚长江东逝水</span>
 </body>
 
 </html>
