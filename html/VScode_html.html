@@ -7,31 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* * {
+        * {
             padding: 0;
             margin: 0;
-        } */
-
-        div {
-            width: 400px;
-            height: 200px;
-            background-color: deeppink;
-            color: white;
+            box-sizing: border-box;
         }
 
-        div::before {
-            /* content必须要有 是插入的内容 */
-            content: '插入前面的内容';
+        .box {
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
         }
 
-        div::after {
-            content: '插入后面的内容';
+        .box img {
+            height: 100%;
+            margin-left: -8px;
+            transition: all .2s;
+        }
+
+        .box img:hover {
+            margin-left: -80px;
         }
     </style>
 </head>
 
 <body>
-    <div>box</div>
+    <div class="box">
+        <img src="img/icon.png" alt="">
+    </div>
 </body>
 
 </html>
